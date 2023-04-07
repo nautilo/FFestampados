@@ -32,12 +32,8 @@ function rotar(event) {
   if (isDragging) {
     const currentX = event.pageX || event.touches[0].pageX;
     let diffX = currentX - initialX;
-    if (diffX > 50) {
-      diffX = 50;
-    } else if (diffX < -50) {
-      diffX = -50;
-    }
-    rotation += diffX / 10;
+
+    rotation += diffX/15;
     document.getElementById("tazon").style.transform = `rotateY(${rotation}deg)`;
   }
 }
