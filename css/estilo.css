@@ -18,7 +18,6 @@ body{
 }
 .strip{
     transform-style: preserve-3d;
-    animation: spin 20s infinite linear
 }
 .strip div{
     position: absolute;
@@ -26,14 +25,15 @@ body{
     border: solid rgb(172, 172, 172);
     border-width: thin 0;
     height: 320px;
-    width: 60px;
+    width: 54px;
     opacity: 1;
 }
-/* 53 */
+/* 53px la diferencia entre posiciones de bg */
+/* ancho original por strip 66px */
 .strip div:after{
     content: '';
     position: absolute;
-    width: 66px;
+    width: 54px;
     bottom: -40px;
     box-shadow: 0px 20px 40px 10px rgba(0,0,0,.3);
 }
