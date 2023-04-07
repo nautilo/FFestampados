@@ -137,7 +137,7 @@ body{
     border-radius: 35%;
     position:absolute;
     top: 45px;
-    left: 40px;
+    left: 42px;
     width:300px; height:290px;
     overflow:hidden;
 }
@@ -156,7 +156,7 @@ body{
     border-radius: 35%;
     position:absolute;
     top: 45px;
-    left: 40px;
+    left: 42px;
     width:300px; height:290px;
     overflow:hidden;
     transform: translateZ(36px);
@@ -192,7 +192,7 @@ body{
     width: 50px;
     left: 265px;
     top:44px;
-    transform: rotateX(90deg) translateY(18px) rotateY(32deg);
+    transform: rotateX(90deg) translateY(18px) rotateY(31deg);
 }
 
 .strip .asa3{
